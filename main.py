@@ -38,7 +38,7 @@ def backup():
     print(f'[Weekly Backup] Made {file_name} in {backup_folder}')
 
 
-schedule.every(backup_time).seconds.do(backup)
+schedule.every(backup_time).days.do(backup)
 
 while True:
     schedule.run_pending()
