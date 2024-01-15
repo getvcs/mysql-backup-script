@@ -29,7 +29,7 @@ This Python script automates backing up a MySQL database on a regular schedule. 
 
 ## Credits
 
-Written by [your_name]
+Written by [Alfie](https://github.com/alfiegnu)
 
 ## License
 
